@@ -23,7 +23,6 @@ from tqdm import tqdm
 import sys
 sys.path.append('./webscraping')
 import functions_pagina_siete as func
-import auxilar_functions as auxfunc
 
 
 def get_dates(days_ago):
