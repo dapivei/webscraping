@@ -12,11 +12,11 @@ pip3 install <paquetería>
 
 El presente repositorio contiene *scripts* que permiten realizar las siguientes tareas:
 
-**1.** Scraping de todas las noticias publicadas en https://www.eldiario.net, con el fin de obtener información relacionada con el autor, la fecha de publicación, el lugar, etc., para un período de tiempo fijado. El tiempo para el scrapeo se fijó en dos días anteriores a la fecha de scrapeo, pero esto puede ser fácilmente adecuado al gusto del usuario, modificando la variable "days_ago" del documento [main_scraping](https://github.com/dapivei/webscraping/blob/master/main_scraping.py). *Nota:* El código podría fácilmente adecuarse para el scrapeo de otras páginas.
+**1.** Scraping de todas las noticias publicadas en https://www.eldiario.net, con el fin de obtener información relacionada con el autor, la fecha de publicación, el lugar, etc., para un periodo de tiempo fijado. El tiempo para el scrapeo se fijó en dos días anteriores a la fecha de scrapeo, pero esto puede ser fácilmente adecuado al gusto del usuario, modificando la variable "days_ago" del documento [main_scraping](https://github.com/dapivei/webscraping/blob/master/main_scraping.py). *Nota:* El código podría fácilmente adecuarse para el scrapeo de otras páginas.
 
 El *script* principal, que orquesta todas las operaciones necesarias para realizar el scrapeo, es el documento [main_scraping.py](https://github.com/dapivei/webscraping/blob/master/main_scraping.py), mismo que se apoya en otros dos scripts que contienen funciones auxiliares: [auxiliar_functions.py](https://github.com/dapivei/webscraping/blob/master/auxilar_functions.py) y [functions_pagina_siete.py](https://github.com/dapivei/webscraping/blob/master/functions_pagina_siete.py).
 
-Para correr el código, situares sobre la línea de comandos y ejecutar el siguiente código:
+Para correr el código, situarse sobre la línea de comandos y ejecutar el siguiente código:
 
 ```
 git clone https://github.com/dapivei/webscraping
