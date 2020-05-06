@@ -10,7 +10,7 @@
 pip3 install <paquetería>
 ```
 
-El presente repositorio contiene *scripts* que permiten realizar las siguientes tareas:
+El presente repositorio contiene **scripts** que permiten realizar las siguientes tareas:
 
 **1.** Scraping de todas las noticias publicadas en https://www.eldiario.net, con el fin de obtener información relacionada con el autor, la fecha de publicación, el lugar, etc., para un periodo de tiempo fijado. El tiempo para el scrapeo se fijó en dos días anteriores a la fecha de scrapeo, pero esto puede ser fácilmente adecuado al gusto del usuario, modificando la variable "days_ago" del documento [main_scraping](https://github.com/dapivei/webscraping/blob/master/main_scraping.py). *Nota:* El código podría fácilmente adecuarse para el scrapeo de otras páginas.
 
