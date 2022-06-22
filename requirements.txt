@@ -4,5 +4,5 @@ selenium==3.141.0
 beautifulsoup4==4.9.0
 requests==2.22.0
 webdriver-manager==2.4.0
-numpy==1.18.2
+numpy==1.22.0
 tqdm==4.45.0
